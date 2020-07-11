@@ -2,7 +2,7 @@
   <div>
     <b-container>
       <div class="ni-main-menu">
-        <img class="ni-logo" src="/images/ns.png" alt="NicoSouza logo">
+        <img class="ni-logo" src="/images/nicosouza.png" alt="NicoSouza logo">
          <div>
            <b-nav>
              <b-nav-item>
@@ -19,6 +19,7 @@
       </div>
       <Nuxt />
     </b-container>
+    <!-- <div class="ni-footer">Todos os direitos reservados</div> -->
   </div>
 </template>
 <script>
@@ -49,7 +50,7 @@ a:hover {
   padding: 10px;
 }
 .ni-logo {
-  max-width: 115px;
+  max-width: 200px;
 }
 
 h1 {
