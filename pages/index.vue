@@ -1,5 +1,5 @@
 <template>
-  <div class="ni-home">
+
     <div class="ni-home-flex">
       <div>
         <h1>Seja bem-vindo</h1>
@@ -25,7 +25,7 @@
       </div>
       <img src="/images/nico.png" alt="Nico" />
     </div>
-  </div>
+
 </template>
 
 <script>
@@ -33,13 +33,18 @@ export default {};
 </script>
 
 <style>
-.ni-home {
-  padding: 40px;
-}
 .ni-home-flex {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  height: auto;
+  padding: 40px;
+  flex-grow : 1;
+}
+@media (max-width: 991px) {
+  .ni-home-flex {
+    flex-flow: column;
+  }
 }
 .ni-home-text {
   font-size: 32px;

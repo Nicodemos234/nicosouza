@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-container>
+    <b-container class="ni-centerlizer">
       <div class="ni-main-menu">
         <img class="ni-logo" src="/images/nicosouza.png" alt="NicoSouza logo">
          <div>
@@ -29,11 +29,17 @@ export default {
 </script>
 <style>
 @import '../assets/styles/reset.css';
+@import '../assets/styles/trasition.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 body {
   background-color: #282A36;
   font-family: 'Roboto', sans-serif;
   color: #BCC2CD;
+}
+.ni-centerlizer {
+  height: -webkit-fill-available;
+  display: flex;
+  flex-flow: column;
 }
 a {
   color: #BCC2CD;
