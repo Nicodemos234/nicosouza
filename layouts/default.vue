@@ -56,4 +56,10 @@ a:hover, .nuxt-link-exact-active {
 h1 {
   font-size: 64px;
 }
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 32px;
+}
 </style>

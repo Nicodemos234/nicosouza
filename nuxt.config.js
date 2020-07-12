@@ -35,6 +35,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: './plugins/vue-agile.js', mode: 'client' }
   ],
   /*
   ** Auto import components
@@ -52,6 +53,7 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+
   ],
   /*
   ** Build configuration
