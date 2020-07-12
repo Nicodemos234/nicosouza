@@ -39,7 +39,7 @@ a {
   color: #BCC2CD;
   font-size: 30px;
 }
-a:hover {
+a:hover, .nuxt-link-exact-active {
   color: #BD93F9;
   text-decoration: none;
 }
