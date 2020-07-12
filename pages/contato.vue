@@ -6,3 +6,12 @@
         </div>
     </div>
 </template>
+<script>
+export default {
+    head() {
+        return {
+            'title': "Contato"
+        };
+    }
+}
+</script>

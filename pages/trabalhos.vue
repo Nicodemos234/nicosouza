@@ -17,6 +17,11 @@ import NiSlideContent from './../components/ni-slide-content'
 export default {
     components: {
         'ni-slide-content' : NiSlideContent
+    },
+    head() {
+        return {
+            'title': "Trabalhos"
+        };
     }
 };
 </script>
